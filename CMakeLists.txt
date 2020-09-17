@@ -6,4 +6,9 @@ project(az_sdk_samples LANGUAGES C)
 
 include(AddAzureSDK)
 
+# Consuming Azure SDK for C from C99 app
 add_subdirectory(helloAzure)
+
+# Consuming Azure SDK for C from Cpp app
+add_subdirectory(helloAzureFromCpp)
+
