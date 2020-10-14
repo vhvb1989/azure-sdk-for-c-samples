@@ -12,3 +12,6 @@ add_subdirectory(helloAzure)
 # Consuming Azure SDK for C from Cpp app
 add_subdirectory(helloAzureFromCpp)
 
+# using libcurl easy_send() and easy_recv()
+add_subdirectory(poorManLibCurl)
+
